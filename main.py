@@ -7,7 +7,7 @@ def main():
     ui.choose_document() # document picker
 
     # request user input saving to {user_document_choice}
-    user_document_choice = pyip.inputNum("Enter Document Number: ")
+    user_document_choice: int = pyip.inputNum("Enter Document Number: ")
     
 
     # running document logic
