@@ -1,6 +1,6 @@
 # main
 import pyinputplus as pyip
-from module import helper, ui
+from module import helper, ui, classes
 
 def main():
     ui.welcome_message() # loads welcome message and

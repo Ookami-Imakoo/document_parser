@@ -1,7 +1,7 @@
 from pathlib import Path
 import pyinputplus as pyip
 
-from module import Document
+from module.classes import Document
 
 # def text_moby_dick():
 #     moby_dick_path = Path(r'document_parser\documents\moby_dick') # specific path to moby dick
